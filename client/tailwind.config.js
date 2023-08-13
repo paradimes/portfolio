@@ -1,11 +1,12 @@
 // /** @type {import('tailwindcss').Config} */
 // export default {
+//   darkMode: "class",
 //   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 //   theme: {
 //     extend: {},
 //   },
 //   plugins: [],
-// };s
+// };
 
 import plugin from "tailwindcss/plugin";
 import { blackA, mauve, violet, indigo, purple } from "@radix-ui/colors";
@@ -16,6 +17,7 @@ export const content = [
   "./index.html",
   "./src/**/*.{js,ts,jsx,tsx}",
 ];
+export const darkMode = "media";
 export const theme = {
   extend: {
     colors: {
@@ -58,6 +60,42 @@ export const theme = {
         from: { opacity: 1 },
         to: { opacity: 0 },
       },
+    },
+    fontFamily: {
+      body: [
+        "Inter",
+        "ui-sans-serif",
+        "system-ui",
+        "-apple-system",
+        "system-ui",
+        "Segoe UI",
+        "Roboto",
+        "Helvetica Neue",
+        "Arial",
+        "Noto Sans",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji",
+      ],
+      sans: [
+        "Inter",
+        "ui-sans-serif",
+        "system-ui",
+        "-apple-system",
+        "system-ui",
+        "Segoe UI",
+        "Roboto",
+        "Helvetica Neue",
+        "Arial",
+        "Noto Sans",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji",
+      ],
     },
   },
   animation: {

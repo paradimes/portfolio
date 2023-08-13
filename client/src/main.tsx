@@ -4,9 +4,9 @@ import App from "./App.tsx";
 import { Theme } from "@radix-ui/themes";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <Theme>
+  <Theme appearance="dark">
+    <React.StrictMode>
       <App />
-    </Theme>
-  </React.StrictMode>
+    </React.StrictMode>
+  </Theme>
 );

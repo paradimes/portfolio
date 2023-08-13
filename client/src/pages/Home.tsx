@@ -1,19 +1,19 @@
 import { Flex } from "@radix-ui/themes";
 import React from "react";
 import Navbar from "../components/Navbar";
-import Intro from "../components/Intro";
+import Content from "../components/Content";
 
 export default function Home() {
   return (
-    <Flex direction="column" className="h-screen ">
+    <Flex direction="column" className="h-screen bg-white dark:bg-slate-900 ">
       <Navbar />
       <Flex
         direction="column"
         align="center"
         // justify="center"
-        className="border-2 border-red-500 flex-grow"
+        className="flex-grow"
       >
-        <Intro />
+        <Content />
       </Flex>
     </Flex>
   );
