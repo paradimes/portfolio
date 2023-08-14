@@ -1,5 +1,5 @@
 import React from "react";
-import projectJSON from "../Projects.json";
+import projectJSON from "../projects.json";
 import { Flex, Heading, Text, Grid } from "@radix-ui/themes";
 import ProjectCard from "./ProjectCard";
 
