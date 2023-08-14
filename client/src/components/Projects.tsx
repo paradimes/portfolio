@@ -9,8 +9,8 @@ interface ProjectData {
     projectDescr: string;
     projectSkills: string;
     projectImg: string;
-    projectLink: string;
-    githubLink: string;
+    projectLink?: string;
+    githubLink?: string;
   };
 }
 
@@ -20,9 +20,9 @@ type ProjectsProps = {
 };
 
 export default function Projects({ title, description }: ProjectsProps) {
+  const k = projectJSON as ProjectData;
   return (
     <Flex
-      // width="100%"
       p="5"
       direction="column"
       gap="3"
@@ -35,8 +35,8 @@ export default function Projects({ title, description }: ProjectsProps) {
         {description}
       </Text>
       <Grid columns="2" gap="5" py="5">
-        {Object.keys(projectJSON).map((projectKey) => {
-          const project = projectJSON[projectKey] as ProjectData[string];
+        {Object.keys(k).map((projectKey) => {
+          const project = k[projectKey];
           return (
             <ProjectCard
               key={projectKey}
