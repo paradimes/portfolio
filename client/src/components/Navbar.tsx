@@ -1,11 +1,4 @@
-import {
-  Avatar,
-  Button,
-  Flex,
-  Link as RadixLink,
-  Text,
-} from "@radix-ui/themes";
-import globe from "../assets/globe.svg";
+import { Flex, Link as RadixLink, Text } from "@radix-ui/themes";
 import {
   GitHubLogoIcon,
   GlobeIcon,
@@ -15,20 +8,6 @@ import {
   TwitterLogoIcon,
 } from "@radix-ui/react-icons";
 import { useEffect, useState } from "react";
-
-// const onSwitchTheme = () => {
-//   const htmlClassName = document.documentElement.classList;
-//   let isDarkActive = htmlClassName.contains("dark");
-
-//   if (isDarkActive) {
-//     document.documentElement.classList.remove("dark");
-//   } else {
-//     document.documentElement.classList.add("dark");
-//   }
-//   isDarkActive = !isDarkActive;
-
-//   console.log(isDarkActive);
-// };
 
 export default function Navbar() {
   const [isDarkActive, setIsDarkActive] = useState(false);
