@@ -88,12 +88,9 @@ export default function Navbar() {
           align="center"
           justify="center"
           className="ml-5 px-2 py-1 my-1 hover:bg-white rounded-lg hover:cursor-pointer text-white hover:text-black "
+          onClick={onSwitchTheme}
         >
-          {isDarkActive ? (
-            <SunIcon onClick={onSwitchTheme} />
-          ) : (
-            <MoonIcon onClick={onSwitchTheme} />
-          )}
+          {isDarkActive ? <SunIcon /> : <MoonIcon />}
         </Flex>
         {/* </Button> */}
       </Flex>
