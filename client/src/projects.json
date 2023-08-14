@@ -40,6 +40,7 @@
     "projectDescr": "This website you're currently on.",
     "projectSkills": "React, TypeScript, Radix-UI, Tailwind CSS",
     "projectImg": "Portfolio",
+    "projectLink": "https://portfolio-anasm.vercel.app/",
     "githubLink": "https://github.com/paradimes/portfolio"
   }
 }
