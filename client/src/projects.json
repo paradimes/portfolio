@@ -1,0 +1,39 @@
+{
+  "YoutubeToMP3": {
+    "projectTitle": "YouTube To MP3 Automator",
+    "projectDescr": "Converts YouTube playlists to MP3 for offline usage. All you have to do is paste your playlist link.",
+    "projectSkills": "React, JavaScript, Python, Flask, Youtube Data API, Tailwind CSS",
+    "projectImg": "YoutubeToMP3"
+  },
+  "FUNdamentals": {
+    "projectTitle": "FUNdamentals",
+    "projectDescr": "A platform that offers you a curated set of resources to help you build your understanding from the ground up.",
+    "projectSkills": "React, JavaScript, Tailwind CSS",
+    "projectImg": "FUNdamentals",
+    "projectLink": "https://fundamentals-sigma.vercel.app/welcome"
+  },
+  "Hangman": {
+    "projectTitle": "Hangman",
+    "projectDescr": "Classic Hangman game with definitions from Merriam Webster Dictionary API as hints, to help make learning english fun, and improve vocabulary for all.",
+    "projectSkills": "React, TypeScript, Merriam Webster API, Tailwind CSS",
+    "projectImg": "Hangman"
+  },
+  "CohereGenerator": {
+    "projectTitle": "Cohere Recipe Blog Generator",
+    "projectDescr": "Writing a blog? Don't know where to start? This Food Blog Inspiration Generator powered by Cohere has you covered!",
+    "projectSkills": "React, Cohere, Node.js, Express.js, Tailwind CSS, JavaScript",
+    "projectImg": "CohereGenerator"
+  },
+  "MyWeather": {
+    "projectTitle": "MyWeather",
+    "projectDescr": "A weather app that displays the weather forecast for any location using the OpenWeather API.",
+    "projectSkills": "TypeScript, React, Node.js, Express.js, MySQL, OpenWeather API, Tailwind CSS",
+    "projectImg": "MyWeather"
+  },
+  "Portfolio": {
+    "projectTitle": "My Portfolio",
+    "projectDescr": "This website you're currently on.",
+    "projectSkills": "TypeScript, React, Radix UI, Tailwind CSS",
+    "projectImg": "MyWeather"
+  }
+}
