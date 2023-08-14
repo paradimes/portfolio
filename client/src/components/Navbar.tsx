@@ -37,7 +37,13 @@ export default function Navbar() {
       justify="center"
       className="bg-black"
     >
-      <Flex gap="3" align="center" justify="center" width="100%">
+      <Flex
+        gap="3"
+        align="center"
+        justify="center"
+        width="100%"
+        className="text-white"
+      >
         {/* <Avatar size="1" src={globe} fallback="globe" /> */}
         <GlobeIcon />
         <Text weight="bold" className="text-white">
