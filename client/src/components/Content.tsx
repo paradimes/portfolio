@@ -1,6 +1,7 @@
-import { Grid } from "@radix-ui/themes";
+import { Button, Grid, Link } from "@radix-ui/themes";
 import Item from "./Item";
 import Projects from "./Projects";
+import { Link2Icon } from "@radix-ui/react-icons";
 
 export default function Content() {
   return (
@@ -18,16 +19,28 @@ export default function Content() {
       <Item
         title="Education 🎓"
         description={
-          <>Bachelor of Engineering @ Ontario Tech University (Spring 2022)</>
+          <>
+            Bachelor of Engineering @{" "}
+            <Link href={"https://ontariotechu.ca/"} target="_blank">
+              Ontario Tech University
+            </Link>{" "}
+            (Spring 2022)
+          </>
         }
       />
       <Item
         title="Experience 💼"
         description={
           <>
-            Software Engineering Intern @ League
+            Software Engineering Intern @{" "}
+            <Link href={"https://league.com/"} target="_blank">
+              League
+            </Link>
             <br />
-            Software Engineering Intern @ Ontario Power Generation
+            Software Engineering Intern @{" "}
+            <Link href={"https://www.opg.com/"} target="_blank">
+              Ontario Power Generation
+            </Link>
           </>
         }
       />
@@ -43,7 +56,20 @@ export default function Content() {
       <Item
         title="YouTube 🎥"
         description={
-          <>Making tech-related content @regularyscheduledprogramming.</>
+          <>
+            Making tech-related content
+            <Link> @regularyscheduledprogramming.</Link>
+            <Link
+              href={
+                "https://www.youtube.com/@regularlyscheduledprogramming./featured"
+              }
+              target="_blank"
+            >
+              <Button color="violet" variant="solid" highContrast mt="4">
+                <Link2Icon width="16" height="16" /> Open
+              </Button>
+            </Link>
+          </>
         }
       />
       <div className="col-span-2">
