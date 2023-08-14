@@ -17,7 +17,7 @@ export const content = [
   "./index.html",
   "./src/**/*.{js,ts,jsx,tsx}",
 ];
-export const darkMode = "media";
+export const darkMode = "class";
 export const theme = {
   extend: {
     colors: {
