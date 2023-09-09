@@ -50,7 +50,7 @@ export default function Navbar() {
           Anas Mohmand
         </Text>
       </Flex>
-      <Flex pr="9" direction="row" align="center" justify="center" width="100%">
+      <Flex direction="row" align="center" justify="center" width="100%">
         <RadixLink
           href="https://www.linkedin.com/in/anas-mohmand-2202b8172/"
           target="_blank"
