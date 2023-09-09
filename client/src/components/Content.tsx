@@ -11,7 +11,7 @@ export default function Content() {
         description={
           <>
             My name is Anas. I'm a Software Engineer. I love learning +
-            building. Looking for my next opporunity to build something great.
+            building. Looking for my next opportunity to build something great.
           </>
         }
       />
