@@ -5,15 +5,15 @@ import { Link2Icon } from "@radix-ui/react-icons";
 
 export default function Content() {
   return (
-    <Grid
-      columns="2"
-      gap="9"
-      p="9"
-      className="w-[1000px] bg-white dark:bg-slate-900"
-    >
+    <Grid className="w-11/12 md:w-11/12 lg:w-[1000px] gap-4 sm:gap-16 p-4 sm:p-16 bg-white dark:bg-slate-900 grid-cols-1 sm:grid-cols-2 ">
       <Item
         title="Welcome 👋"
-        description={<>My name is Anas. I'm a Software Engineer.</>}
+        description={
+          <>
+            My name is Anas. I'm a Software Engineer. I love learning +
+            building. Looking for my next opporunity to build something great.
+          </>
+        }
       />
       <br />
       <Item
@@ -72,7 +72,7 @@ export default function Content() {
           </>
         }
       />
-      <div className="col-span-2">
+      <div className="col-span-1 sm:col-span-2">
         <Projects
           title="Projects"
           description="Personal projects I've worked on."

@@ -26,7 +26,7 @@ export default function Projects({ title, description }: ProjectsProps) {
       p="5"
       direction="column"
       gap="3"
-      className=" rounded-3xl hover:bg-slate-200 dark:hover:bg-slate-800  py-5"
+      className="rounded-3xl hover:bg-slate-200 dark:hover:bg-slate-800 py-5 "
     >
       <Heading size="8" className="text-black dark:text-white">
         {title}
@@ -34,7 +34,7 @@ export default function Projects({ title, description }: ProjectsProps) {
       <Text size="4" className="text-black dark:text-white">
         {description}
       </Text>
-      <Grid columns="2" gap="5" py="5">
+      <Grid className="grid-cols-1 sm:grid-cols-2" gap="5" py="5">
         {Object.keys(k).map((projectKey) => {
           const project = k[projectKey];
           return (

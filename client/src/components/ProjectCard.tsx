@@ -20,7 +20,7 @@ export default function ProjectCard({
   githubLink,
 }: ProjectCardProps) {
   return (
-    <div className="max-w-md mx-auto bg-white dark:bg-slate-900 dark:border-2 dark:border-slate-900 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+    <div className="col-span-1 max-w-md mx-auto bg-white dark:bg-slate-900 dark:border-2 dark:border-slate-900 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
       <div className="flex flex-col max-w-sm">
         <div className="md:shrink-0 flex items-center justify-center p-5">
           <img

@@ -59,7 +59,7 @@ export default function Navbar() {
         >
           <Flex direction="row" align="center" justify="center" gap="1">
             <LinkedInLogoIcon />
-            linkedin
+            <span className="hidden sm:block">linkedin</span>
           </Flex>
         </RadixLink>
         <RadixLink
@@ -70,7 +70,7 @@ export default function Navbar() {
         >
           <Flex direction="row" align="center" justify="center" gap="1">
             <GitHubLogoIcon />
-            github
+            <span className="hidden sm:block">github</span>
           </Flex>
         </RadixLink>{" "}
         <RadixLink
@@ -81,7 +81,7 @@ export default function Navbar() {
         >
           <Flex direction="row" align="center" justify="center" gap="1">
             <TwitterLogoIcon />
-            twitter
+            <span className="hidden sm:block">twitter</span>
           </Flex>
         </RadixLink>{" "}
         <Flex
