@@ -1,7 +1,6 @@
-import { Button, Flex, Grid, Link } from "@radix-ui/themes";
+import { Flex, Grid, Link } from "@radix-ui/themes";
 import Item from "./Item";
 import Projects from "./Projects";
-import { Link2Icon } from "@radix-ui/react-icons";
 import profilePicture from "../assets/profilePicture.jpeg";
 
 export default function Content() {
@@ -30,7 +29,7 @@ export default function Content() {
             <Link href={"https://ontariotechu.ca/"} target="_blank">
               Ontario Tech University
             </Link>{" "}
-            (Spring 2022)
+            (June 2022)
           </>
         }
       />
@@ -54,8 +53,8 @@ export default function Content() {
         title="Skills 🛠️"
         description={
           <>
-            React, TypeScript, JavaScript, Python, Node.JS, Tailwind CSS, Git,
-            Figma{" "}
+            React, TypeScript, JavaScript, Python, Node.JS, MongoDB, MySQL, AWS,
+            Tailwind CSS, Git, Figma{" "}
           </>
         }
       />
@@ -63,26 +62,22 @@ export default function Content() {
         title="YouTube 🎥"
         description={
           <>
-            Making tech-related content
-            <Link> @regularyscheduledprogramming.</Link>
+            Creating tech-related content
             <Link
               href={
                 "https://www.youtube.com/@regularlyscheduledprogramming./featured"
               }
               target="_blank"
             >
-              <Button color="violet" variant="solid" highContrast mt="4">
-                <Link2Icon width="16" height="16" /> Open
-              </Button>
+              {" "}
+              @regularyscheduledprogramming.
             </Link>
           </>
         }
+        link="https://www.youtube.com/@regularlyscheduledprogramming./featured"
       />
       <div className="col-span-1 sm:col-span-2">
-        <Projects
-          title="Projects"
-          description="Personal projects I've worked on."
-        />
+        <Projects title="Projects" description="My personal projects." />
       </div>
     </Grid>
   );

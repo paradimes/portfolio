@@ -1,11 +1,13 @@
-import { Flex, Heading, Text } from "@radix-ui/themes";
+import { Link2Icon } from "@radix-ui/react-icons";
+import { Button, Flex, Heading, Link, Text } from "@radix-ui/themes";
 
 type ItemProps = {
   title: string;
   description: React.ReactNode;
+  link?: string;
 };
 
-export default function Item({ title, description }: ItemProps) {
+export default function Item({ title, description, link }: ItemProps) {
   return (
     <Flex
       p="5"
@@ -17,9 +19,17 @@ export default function Item({ title, description }: ItemProps) {
         {title}
       </Heading>
 
-      <Text size="4" className="text-black dark:text-white">
+      <Text size="4" className="text-black dark:text-white text-left">
         {description}
       </Text>
+
+      {link && (
+        <Link href={link} target="_blank">
+          <Button color="violet" variant="solid" highContrast mt="4">
+            <Link2Icon width="16" height="16" /> Open
+          </Button>
+        </Link>
+      )}
     </Flex>
   );
 }

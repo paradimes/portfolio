@@ -42,7 +42,7 @@ export default function ProjectCard({
           <p className="mt-2 text-slate-500 dark:text-slate-300">
             {projectDescr}
           </p>
-          <Flex gap="5">
+          <Flex gap="3" className="flex-wrap">
             {link && (
               <Link href={link} target="_blank">
                 <Button color="violet" variant="solid" highContrast mt="4">
