@@ -1,7 +1,8 @@
-import { Button, Grid, Link } from "@radix-ui/themes";
+import { Button, Flex, Grid, Link } from "@radix-ui/themes";
 import Item from "./Item";
 import Projects from "./Projects";
 import { Link2Icon } from "@radix-ui/react-icons";
+import profilePicture from "../assets/profilePicture.jpeg";
 
 export default function Content() {
   return (
@@ -15,7 +16,12 @@ export default function Content() {
           </>
         }
       />
-      <br />
+      <Flex className="flex justify-center items-center">
+        <img
+          src={profilePicture}
+          className="w-40 h-40 rounded-full object-fill hover:outline hover:outline-4 hover:outline-offset-4  hover:outline-slate-300 dark:hover:outline-slate-300 	"
+        />
+      </Flex>
       <Item
         title="Education 🎓"
         description={

@@ -9,10 +9,18 @@
   "FUNdamentals": {
     "projectTitle": "FUNdamentals",
     "projectDescr": "A platform that offers you a curated set of resources to help you build your understanding from the ground up.",
-    "projectSkills": "React, JavaScript, Tailwind CSS",
+    "projectSkills": "React, JavaScript, NodeJS, MongoDB, Auth0, OpenAI API, AWS EC2, Tailwind CSS",
     "projectImg": "FUNdamentals",
     "projectLink": "https://fundamentals-sigma.vercel.app/welcome",
     "githubLink": "https://github.com/paradimes/FUNdamentals"
+  },
+  "Pomodoro": {
+    "projectTitle": "Pomodoro",
+    "projectDescr": "Apple-themed Pomodoro timer.",
+    "projectSkills": "React, TypeScript, Tailwind CSS",
+    "projectImg": "Pomodoro",
+    "projectLink": "https://pomodoro-zeta-ruddy.vercel.app/",
+    "githubLink": "https://github.com/paradimes/pomodoro"
   },
   "Hangman": {
     "projectTitle": "Hangman",
