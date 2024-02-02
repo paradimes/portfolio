@@ -3,22 +3,30 @@
     "projectTitle": "YouTube To MP3 Automator",
     "projectDescr": "Converts YouTube playlists to MP3 for offline usage. All you have to do is paste your playlist link.",
     "projectSkills": "React, JavaScript, Python, Flask, Youtube Data API, Tailwind CSS",
-    "projectImg": "YoutubeToMP3",
+    "projectImg": "YoutubeToMP3.png",
     "githubLink": "https://github.com/paradimes/youtubeToMP3"
   },
   "FUNdamentals": {
     "projectTitle": "FUNdamentals",
     "projectDescr": "A platform that offers you a curated set of resources to help you build your understanding from the ground up.",
-    "projectSkills": "React, JavaScript, NodeJS, MongoDB, Auth0, OpenAI API, AWS EC2, Tailwind CSS",
-    "projectImg": "FUNdamentals",
+    "projectSkills": "React, JavaScript, NodeJS, Express, Mongoose, MongoDB, Auth0, OpenAI API, AWS EC2, Tailwind CSS",
+    "projectImg": "FUNdamentals.png",
     "projectLink": "https://fundamentals-sigma.vercel.app/welcome",
     "githubLink": "https://github.com/paradimes/FUNdamentals"
+  },
+  "ToDoList": {
+    "projectTitle": "To Do List",
+    "projectDescr": "Keep track of everything - in style! Database solution for authenticated users, and local storage solution for unauthenticated users.",
+    "projectSkills": "React, TypeScript, NodeJS, Express, Mongoose, MongoDB, Auth0, Tailwind CSS, shadcn/ui, Radix-UI, Lucide Icons",
+    "projectImg": "ToDoList.png",
+    "projectLink": "https://todolist-anasm.vercel.app/",
+    "githubLink": "https://github.com/paradimes/todolist"
   },
   "Pomodoro": {
     "projectTitle": "Pomodoro",
     "projectDescr": "Apple-themed Pomodoro timer.",
     "projectSkills": "React, TypeScript, Tailwind CSS",
-    "projectImg": "Pomodoro",
+    "projectImg": "Pomodoro.png",
     "projectLink": "https://pomodoro-zeta-ruddy.vercel.app/",
     "githubLink": "https://github.com/paradimes/pomodoro"
   },
@@ -26,28 +34,28 @@
     "projectTitle": "Hangman",
     "projectDescr": "Classic Hangman game with definitions from Merriam Webster Dictionary API as hints, to help make learning english fun, and improve vocabulary for all.",
     "projectSkills": "React, TypeScript, Merriam Webster API, Tailwind CSS",
-    "projectImg": "Hangman",
+    "projectImg": "Hangman.png",
     "githubLink": "https://github.com/paradimes/hangman"
   },
   "CohereGenerator": {
     "projectTitle": "Cohere Recipe Blog Generator",
     "projectDescr": "Writing a blog? Don't know where to start? This Food Blog Inspiration Generator powered by Cohere has you covered!",
     "projectSkills": "React, Cohere, Node.js, Express.js, Tailwind CSS, JavaScript",
-    "projectImg": "CohereGenerator",
+    "projectImg": "CohereGenerator.png",
     "githubLink": "https://github.com/paradimes/cohere-blog-inspiration-generator"
   },
   "MyWeather": {
     "projectTitle": "MyWeather",
     "projectDescr": "A weather app that displays the weather forecast for any location using the OpenWeather API.",
     "projectSkills": "React, TypeScript, Node.js, Express.js, MySQL, OpenWeather API, Tailwind CSS",
-    "projectImg": "MyWeather",
+    "projectImg": "MyWeather.png",
     "githubLink": "https://github.com/paradimes/MyWeather"
   },
   "Portfolio": {
     "projectTitle": "My Portfolio",
     "projectDescr": "This website you're currently on.",
     "projectSkills": "React, TypeScript, Radix-UI, Tailwind CSS",
-    "projectImg": "Portfolio",
+    "projectImg": "Portfolio.png",
     "projectLink": "https://portfolio-anasm.vercel.app/",
     "githubLink": "https://github.com/paradimes/portfolio"
   }

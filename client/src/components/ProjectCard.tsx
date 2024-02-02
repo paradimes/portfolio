@@ -25,7 +25,7 @@ export default function ProjectCard({
         <div className="md:shrink-0 flex items-center justify-center p-5">
           <img
             className="h-48 w-full object-cover rounded-3xl"
-            src={`/${projectImg}.png`}
+            src={`/${projectImg}`}
             alt="projectThumbnail"
           />
         </div>
