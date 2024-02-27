@@ -14,6 +14,14 @@
     "projectLink": "https://fundamentals-sigma.vercel.app/welcome",
     "githubLink": "https://github.com/paradimes/FUNdamentals"
   },
+  "SerenityCove": {
+    "projectTitle": "Serenity Cove Luxury Resort & Spa",
+    "projectDescr": "Landing page for an upscale resort service, encapsulating the essence of luxury and relaxation. Blends intuitive navigation with visually stunning aesthetics. Designed in Figma.",
+    "projectSkills": "React, TypeScript, React Router Dom, Tailwind CSS, Figma",
+    "projectImg": "SerenityCove.png",
+    "projectLink": "https://serenity-cove-resort.vercel.app/",
+    "githubLink": "https://github.com/paradimes/serenity-cove-resort"
+  },
   "ToDoList": {
     "projectTitle": "To Do List",
     "projectDescr": "Keep track of everything - in style! Database solution for authenticated users, and local storage solution for unauthenticated users.",
