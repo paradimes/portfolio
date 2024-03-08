@@ -17,7 +17,7 @@
   "SerenityCove": {
     "projectTitle": "Serenity Cove Luxury Resort & Spa",
     "projectDescr": "Landing page for an upscale resort service, encapsulating the essence of luxury and relaxation. Blends intuitive navigation with visually stunning aesthetics. Designed in Figma.",
-    "projectSkills": "React, TypeScript, React Router Dom, Tailwind CSS, Figma",
+    "projectSkills": "React, TypeScript, React Hook Form, Zod, React Router Dom, Tailwind CSS, Figma",
     "projectImg": "SerenityCove.png",
     "projectLink": "https://serenity-cove-resort.vercel.app/",
     "githubLink": "https://github.com/paradimes/serenity-cove-resort"
