@@ -14,9 +14,17 @@
     "projectLink": "https://fundamentals-sigma.vercel.app/welcome",
     "githubLink": "https://github.com/paradimes/FUNdamentals"
   },
+  "AtlasStudios": {
+    "projectTitle": "Atlas/Studios",
+    "projectDescr": "This portfolio is a vibrant showcase of creativity and adventure. It highlights the studio's commitment to storytelling through photography, with dynamic layouts, immersive SVG backgrounds, and an interactive gallery.",
+    "projectSkills": "React, TypeScript, React Hook Form, Zod, React Router Dom, Framer Motion, Tailwind CSS, Figma",
+    "projectImg": "AtlasStudios.png",
+    "projectLink": "https://atlas-studios.vercel.app/",
+    "githubLink": "https://github.com/paradimes/atlas-studios"
+  },
   "ArchitectsNYC": {
     "projectTitle": "ArchitectsNYC",
-    "projectDescr": "Landing page for a firm offering architectural services. Designed in Figma.",
+    "projectDescr": "This portfolio elegantly presents ArchitectsNYC's fusion of sustainability and innovation, showcasing diverse projects through interactive animations and immersive visuals, reflecting the firm's commitment to design that inspires.",
     "projectSkills": "React, TypeScript, React Hook Form, Zod, React Router Dom, Framer Motion, Tailwind CSS, Figma",
     "projectImg": "ArchitectsNYC.png",
     "projectLink": "https://lp-2-virid.vercel.app/",
