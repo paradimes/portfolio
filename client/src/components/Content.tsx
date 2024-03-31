@@ -25,7 +25,7 @@ export default function Content() {
         title="Education 🎓"
         description={
           <>
-            Bachelor of Engineering @{" "}
+            Bachelor of Mechanical Engineering @{" "}
             <Link href={"https://ontariotechu.ca/"} target="_blank">
               Ontario Tech University
             </Link>{" "}
