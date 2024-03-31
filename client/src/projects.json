@@ -14,6 +14,14 @@
     "projectLink": "https://fundamentals-sigma.vercel.app/welcome",
     "githubLink": "https://github.com/paradimes/FUNdamentals"
   },
+  "ProjectScaffold": {
+    "projectTitle": "Project Scaffold",
+    "projectDescr": "A powerful CLI tool designed to streamline the process of scaffolding and managing development projects. Enables developers to quickly scaffold React projects with TypeScript, Tailwind CSS, Framer Motion, and React Router, generate boilerplate code, and manage GitHub repositories directly, including creation and local cloning, all through an intuitive command set.",
+    "projectSkills": "Node.js, JavaScript, npm, Inquirer.js, Minimist, GitHub API, Vitest",
+    "projectImg": "ProjectScaffold.png",
+    "projectLink": "https://www.npmjs.com/package/project-scaffold",
+    "githubLink": "https://github.com/paradimes/dev-cli-tool"
+  },
   "AtlasStudios": {
     "projectTitle": "Atlas/Studios",
     "projectDescr": "This portfolio is a vibrant showcase of creativity and adventure. It highlights the studio's commitment to storytelling through photography, with dynamic layouts, immersive SVG backgrounds, and an interactive gallery.",

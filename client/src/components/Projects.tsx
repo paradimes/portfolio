@@ -34,7 +34,7 @@ export default function Projects({ title, description }: ProjectsProps) {
       <Text size="4" className="text-black dark:text-white">
         {description}
       </Text>
-      <Grid className="grid-cols-1 sm:grid-cols-2" gap="5" py="5">
+      <Grid className="grid-cols-1 md:grid-cols-2" gap="5" py="5">
         {Object.keys(k).map((projectKey) => {
           const project = k[projectKey];
           return (
