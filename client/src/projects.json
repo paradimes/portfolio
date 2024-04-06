@@ -8,7 +8,7 @@
   },
   "FUNdamentals": {
     "projectTitle": "FUNdamentals",
-    "projectDescr": "A platform that offers you a curated set of resources to help you build your understanding from the ground up.",
+    "projectDescr": "A generative AI-driven learning platform offering curated educational resources and personalized roadmaps to learn any subject from scatch.",
     "projectSkills": "React, JavaScript, NodeJS, Express, Mongoose, MongoDB, Auth0, OpenAI API, AWS EC2, Tailwind CSS",
     "projectImg": "FUNdamentals.png",
     "projectLink": "https://fundamentals-sigma.vercel.app/welcome",
