@@ -10,8 +10,8 @@ export default function Content() {
         title="Welcome 👋"
         description={
           <>
-            My name is Anas. I'm a Software Engineer. I love learning +
-            building. Looking for my next opportunity to build something great.
+            My name is Anas. I'm an Engineer. I love learning + building.
+            Looking for my next opportunity to build something great.
           </>
         }
       />
@@ -53,8 +53,8 @@ export default function Content() {
         title="Skills 🛠️"
         description={
           <>
-            React, TypeScript, JavaScript, Python, Node.JS, MongoDB, MySQL, AWS,
-            Tailwind CSS, Git, Figma{" "}
+            React, TypeScript, JavaScript, Python, NodeJS, PostgreSQL, MongoDB,
+            AWS, Tailwind CSS, Git, Figma{" "}
           </>
         }
       />

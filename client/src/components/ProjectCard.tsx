@@ -31,7 +31,7 @@ export default function ProjectCard({
         </div>
         <div className="p-8">
           <a
-            href="#"
+            // href="#"
             className="block mt-1 text-lg leading-tight font-medium text-black dark:text-white hover:underline"
           >
             {projectTitle}

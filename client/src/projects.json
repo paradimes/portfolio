@@ -14,10 +14,17 @@
     "projectLink": "https://fundamentals-sigma.vercel.app/welcome",
     "githubLink": "https://github.com/paradimes/FUNdamentals"
   },
+  "LouvreDaily": {
+    "projectTitle": "@LouvreDaily - X/Twitter Bot",
+    "projectDescr": "Automated X/Twitter bot that showcases artwork from the Louvre Museum. This bot scrapes data from the Louvre's API, processes images, translates titles into English, and has an automated workflow to post tweets. Private repository - can provide access upon request.",
+    "projectSkills": "Python, PostgreSQL, Google Cloud Translation API, X/Twitter API, Tweepy, PIL (Pillow), Digital Ocean VPS, Cron Jobs",
+    "projectImg": "LouvreTwitterBot.png",
+    "projectLink": "https://x.com/LouvreDaily"
+  },
   "ProjectScaffold": {
     "projectTitle": "Project Scaffold",
     "projectDescr": "A powerful CLI tool designed to streamline the process of scaffolding and managing development projects. Enables developers to quickly scaffold React projects with TypeScript, Tailwind CSS, Framer Motion, and React Router, generate boilerplate code, and manage GitHub repositories directly, including creation and local cloning, all through an intuitive command set.",
-    "projectSkills": "Node.js, JavaScript, npm, Inquirer.js, Minimist, GitHub API, Vitest",
+    "projectSkills": "NodeJS, JavaScript, npm, Inquirer.js, Minimist, GitHub API, Vitest",
     "projectImg": "ProjectScaffold.png",
     "projectLink": "https://www.npmjs.com/package/project-scaffold",
     "githubLink": "https://github.com/paradimes/dev-cli-tool"
@@ -68,20 +75,6 @@
     "projectSkills": "React, TypeScript, Merriam Webster API, Tailwind CSS",
     "projectImg": "Hangman.png",
     "githubLink": "https://github.com/paradimes/hangman"
-  },
-  "CohereGenerator": {
-    "projectTitle": "Cohere Recipe Blog Generator",
-    "projectDescr": "Writing a blog? Don't know where to start? This Food Blog Inspiration Generator powered by Cohere has you covered!",
-    "projectSkills": "React, Cohere, Node.js, Express.js, Tailwind CSS, JavaScript",
-    "projectImg": "CohereGenerator.png",
-    "githubLink": "https://github.com/paradimes/cohere-blog-inspiration-generator"
-  },
-  "MyWeather": {
-    "projectTitle": "MyWeather",
-    "projectDescr": "A weather app that displays the weather forecast for any location using the OpenWeather API.",
-    "projectSkills": "React, TypeScript, Node.js, Express.js, MySQL, OpenWeather API, Tailwind CSS",
-    "projectImg": "MyWeather.png",
-    "githubLink": "https://github.com/paradimes/MyWeather"
   },
   "Portfolio": {
     "projectTitle": "My Portfolio",
