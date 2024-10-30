@@ -1,18 +1,10 @@
 {
-  "YoutubeToMP3": {
-    "projectTitle": "YouTube To MP3 Automator",
-    "projectDescr": "Converts YouTube playlists to MP3 for offline usage. All you have to do is paste your playlist link.",
-    "projectSkills": "React, JavaScript, Python, Flask, Youtube Data API, Tailwind CSS",
-    "projectImg": "YoutubeToMP3.png",
-    "githubLink": "https://github.com/paradimes/youtubeToMP3"
-  },
-  "FUNdamentals": {
-    "projectTitle": "FUNdamentals",
-    "projectDescr": "A generative AI-driven learning platform offering curated educational resources and personalized roadmaps to learn any subject from scatch.",
-    "projectSkills": "React, JavaScript, NodeJS, Express, Mongoose, MongoDB, Auth0, OpenAI API, AWS EC2, Tailwind CSS",
-    "projectImg": "FUNdamentals.png",
-    "projectLink": "https://fundamentals-sigma.vercel.app/welcome",
-    "githubLink": "https://github.com/paradimes/FUNdamentals"
+  "Cinements": {
+    "projectTitle": "Cinements",
+    "projectDescr": "A modern movie and TV show discussion platform that adopts the familiar aesthetics of major streaming services to create an engaging user experience.",
+    "projectSkills": "React, TypeScript, NodeJS, Express, PostgreSQL, Prisma, Auth0, Digital Ocean VPS, Nginx, PM2, TailwindCSS",
+    "projectImg": "Cinements.png",
+    "projectLink": "https://cinements.com/"
   },
   "LouvreDaily": {
     "projectTitle": "@LouvreDaily - X/Twitter Bot",
@@ -28,6 +20,21 @@
     "projectImg": "ProjectScaffold.png",
     "projectLink": "https://www.npmjs.com/package/project-scaffold",
     "githubLink": "https://github.com/paradimes/dev-cli-tool"
+  },
+  "YoutubeToMP3": {
+    "projectTitle": "YouTube To MP3 Automator",
+    "projectDescr": "Converts YouTube playlists to MP3 for offline usage. All you have to do is paste your playlist link.",
+    "projectSkills": "React, JavaScript, Python, Flask, Youtube Data API, Tailwind CSS",
+    "projectImg": "YoutubeToMP3.png",
+    "githubLink": "https://github.com/paradimes/youtubeToMP3"
+  },
+  "FUNdamentals": {
+    "projectTitle": "FUNdamentals",
+    "projectDescr": "A generative AI-driven learning platform offering curated educational resources and personalized roadmaps to learn any subject from scatch.",
+    "projectSkills": "React, JavaScript, NodeJS, Express, Mongoose, MongoDB, Auth0, OpenAI API, AWS EC2, Tailwind CSS",
+    "projectImg": "FUNdamentals.png",
+    "projectLink": "https://fundamentals-sigma.vercel.app/welcome",
+    "githubLink": "https://github.com/paradimes/FUNdamentals"
   },
   "AtlasStudios": {
     "projectTitle": "Atlas/Studios",
