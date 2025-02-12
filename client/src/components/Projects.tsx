@@ -11,6 +11,7 @@ interface ProjectData {
     projectImg: string;
     projectLink?: string;
     githubLink?: string;
+    blogLink?: string;
   };
 }
 
@@ -46,6 +47,7 @@ export default function Projects({ title, description }: ProjectsProps) {
               projectImg={project.projectImg}
               link={project.projectLink}
               githubLink={project.githubLink}
+              blogLink={project.blogLink}
             />
           );
         })}

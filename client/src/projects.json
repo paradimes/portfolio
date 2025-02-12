@@ -6,6 +6,14 @@
     "projectImg": "Cinements.png",
     "projectLink": "https://cinements.com/"
   },
+  "MyLittleTextbook": {
+    "projectTitle": "MyLittleTextbook",
+    "projectDescr": "An AI-powered learning platform that generates structured textbooks for any topic, featuring interactive content generation, progress tracking, and bookmarking capabilities.",
+    "projectSkills": "Next.js, TypeScript, Google Gemini API, PostgreSQL, Prisma, Redis, React Query, Docker, Google OAuth, Next-Auth, Tailwind CSS",
+    "projectImg": "MyLittleTextbook.png",
+    "projectLink": "textbook.mylittlelife.org",
+    "blogLink": "https://momand.notion.site/MyLittleTextbook-193a75d1b9408046b235e4957b3485ba"
+  },
   "LouvreDaily": {
     "projectTitle": "@LouvreDaily - X/Twitter Bot",
     "projectDescr": "Automated X/Twitter bot that showcases artwork from the Louvre Museum. This bot scrapes data from the Louvre's API, processes images, translates titles into English, and has an automated workflow to post tweets. Private repository - can provide access upon request.",
@@ -27,14 +35,6 @@
     "projectSkills": "React, JavaScript, Python, Flask, Youtube Data API, Tailwind CSS",
     "projectImg": "YoutubeToMP3.png",
     "githubLink": "https://github.com/paradimes/youtubeToMP3"
-  },
-  "FUNdamentals": {
-    "projectTitle": "FUNdamentals",
-    "projectDescr": "A generative AI-driven learning platform offering curated educational resources and personalized roadmaps to learn any subject from scatch.",
-    "projectSkills": "React, JavaScript, NodeJS, Express, Mongoose, MongoDB, Auth0, OpenAI API, AWS EC2, Tailwind CSS",
-    "projectImg": "FUNdamentals.png",
-    "projectLink": "https://fundamentals-sigma.vercel.app/welcome",
-    "githubLink": "https://github.com/paradimes/FUNdamentals"
   },
   "AtlasStudios": {
     "projectTitle": "Atlas/Studios",
@@ -75,13 +75,6 @@
     "projectImg": "Pomodoro.png",
     "projectLink": "https://pomodoro-zeta-ruddy.vercel.app/",
     "githubLink": "https://github.com/paradimes/pomodoro"
-  },
-  "Hangman": {
-    "projectTitle": "Hangman",
-    "projectDescr": "Classic Hangman game with definitions from Merriam Webster Dictionary API as hints, to help make learning english fun, and improve vocabulary for all.",
-    "projectSkills": "React, TypeScript, Merriam Webster API, Tailwind CSS",
-    "projectImg": "Hangman.png",
-    "githubLink": "https://github.com/paradimes/hangman"
   },
   "Portfolio": {
     "projectTitle": "My Portfolio",

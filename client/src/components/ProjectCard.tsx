@@ -1,4 +1,4 @@
-import { GitHubLogoIcon, Link2Icon } from "@radix-ui/react-icons";
+import { GitHubLogoIcon, Link2Icon, CodeIcon } from "@radix-ui/react-icons";
 import { Button, Flex, Link } from "@radix-ui/themes";
 import React from "react";
 
@@ -9,6 +9,7 @@ type ProjectCardProps = {
   projectImg: string;
   link?: string;
   githubLink?: string;
+  blogLink?: string;
 };
 
 export default function ProjectCard({
@@ -18,6 +19,7 @@ export default function ProjectCard({
   projectImg,
   link,
   githubLink,
+  blogLink,
 }: ProjectCardProps) {
   return (
     <div className="col-span-1 max-w-md mx-auto bg-white dark:bg-slate-900 dark:border-2 dark:border-slate-900 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
@@ -54,6 +56,13 @@ export default function ProjectCard({
               <Link href={githubLink} target="_blank">
                 <Button color="violet" variant="solid" highContrast mt="4">
                   <GitHubLogoIcon width="16" height="16" /> GitHub
+                </Button>
+              </Link>
+            )}
+            {blogLink && (
+              <Link href={blogLink} target="_blank">
+                <Button color="violet" variant="solid" highContrast mt="4">
+                  <CodeIcon width="16" height="16" /> Blog
                 </Button>
               </Link>
             )}
