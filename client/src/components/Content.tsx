@@ -53,8 +53,9 @@ export default function Content() {
         title="Skills 🛠️"
         description={
           <>
-            React, TypeScript, JavaScript, Python, NodeJS, PostgreSQL, MongoDB,
-            AWS, Tailwind CSS, Git, Figma{" "}
+            Next.js, React, TypeScript, JavaScript, Python, Node.js, Express,
+            PostgreSQL, MongoDB, Redis, Prisma, AWS, Tailwind CSS, Git, Docker,
+            Figma
           </>
         }
       />

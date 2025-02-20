@@ -1,5 +1,6 @@
 import { Flex, Link as RadixLink, Text } from "@radix-ui/themes";
 import {
+  CodeIcon,
   GitHubLogoIcon,
   GlobeIcon,
   LinkedInLogoIcon,
@@ -82,6 +83,17 @@ export default function Navbar() {
           <Flex direction="row" align="center" justify="center" gap="1">
             <TwitterLogoIcon />
             <span className="hidden sm:block">twitter</span>
+          </Flex>
+        </RadixLink>{" "}
+        <RadixLink
+          href="https://momand.notion.site/Anas-Blog-193a75d1b94080d7948bf001ae2b18c3"
+          target="_blank"
+          weight="bold"
+          className="hover:bg-slate-600 px-2 text-white rounded-lg my-1"
+        >
+          <Flex direction="row" align="center" justify="center" gap="1">
+            <CodeIcon />
+            <span className="hidden sm:block">blog</span>
           </Flex>
         </RadixLink>{" "}
         <Flex

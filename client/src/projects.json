@@ -1,11 +1,4 @@
 {
-  "Cinements": {
-    "projectTitle": "Cinements",
-    "projectDescr": "A modern movie and TV show discussion platform that adopts the familiar aesthetics of major streaming services to create an engaging user experience.",
-    "projectSkills": "React, TypeScript, NodeJS, Express, PostgreSQL, Prisma, Auth0, Digital Ocean VPS, Nginx, PM2, TailwindCSS",
-    "projectImg": "Cinements.png",
-    "projectLink": "https://cinements.com/"
-  },
   "MyLittleTextbook": {
     "projectTitle": "MyLittleTextbook",
     "projectDescr": "An AI-powered learning platform that generates structured textbooks for any topic, featuring interactive content generation, progress tracking, and bookmarking capabilities.",
@@ -13,6 +6,14 @@
     "projectImg": "MyLittleTextbook.png",
     "projectLink": "textbook.mylittlelife.org",
     "blogLink": "https://momand.notion.site/MyLittleTextbook-193a75d1b9408046b235e4957b3485ba"
+  },
+  "Cinements": {
+    "projectTitle": "Cinements",
+    "projectDescr": "A modern movie and TV show discussion platform that adopts the familiar aesthetics of major streaming services to create an engaging user experience.",
+    "projectSkills": "React, TypeScript, NodeJS, Express, PostgreSQL, Prisma, Auth0, Digital Ocean VPS, Nginx, PM2, TailwindCSS",
+    "projectImg": "Cinements.png",
+    "projectLink": "https://cinements.com/",
+    "blogLink": "https://momand.notion.site/Cinements-1a0a75d1b94080ba9274eb76239a5553"
   },
   "LouvreDaily": {
     "projectTitle": "@LouvreDaily - X/Twitter Bot",
