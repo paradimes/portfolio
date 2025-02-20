@@ -4,7 +4,7 @@
     "projectDescr": "An AI-powered learning platform that generates structured textbooks for any topic, featuring interactive content generation, progress tracking, and bookmarking capabilities.",
     "projectSkills": "Next.js, TypeScript, Google Gemini API, PostgreSQL, Prisma, Redis, React Query, Docker, Google OAuth, Next-Auth, Tailwind CSS",
     "projectImg": "MyLittleTextbook.png",
-    "projectLink": "textbook.mylittlelife.org",
+    "projectLink": "https://textbook.mylittlelife.org/",
     "blogLink": "https://momand.notion.site/MyLittleTextbook-193a75d1b9408046b235e4957b3485ba"
   },
   "Cinements": {
